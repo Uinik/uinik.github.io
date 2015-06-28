@@ -231,7 +231,18 @@ hr.small {
 
 .service-item {
     margin-bottom: 30px;
+    /*cursor: pointer;*/
 }
+
+
+
+#services .service-item .service-icon{
+    font-size: 1.7em;
+}
+#services .service-item .service-icon-2{
+    font-size: 1.2em;
+}
+
 
 /* Callout */
 
@@ -292,6 +303,33 @@ hr.small {
 footer {
     padding: 100px 0;
 }
+
+/*.cert-logos img{*/
+    /*min-height: 134px;*/
+    /*max-height: 134px;*/
+/*}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
