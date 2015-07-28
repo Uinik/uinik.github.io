@@ -244,6 +244,47 @@ hr.small {
 }
 
 
+.services-header{
+    display: table;
+    width: 100%;
+    height: 150px;
+    color: #fff;
+}
+
+.services-header .services-header-h{
+    background-image: url("../img/tranparent-60.png");
+    /*padding: 20px 0;*/
+}
+
+#services-mobile-dev{
+    background: url("../img/services-mobile-dev.jpg") no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+
+/*#services-mobile-dev-desc-container{*/
+    /*background-image: url("../img/services-mobile-dev.jpg");*/
+    /*background-position: cover;*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: cover;*/
+    /*background-attachment: ;*/
+/*}*/
+
+/*#services-mobile-dev-desc{*/
+    /*background-image: url("../img/tranparent-60.png");*/
+/*}*/
+
+
+
+
+
+
+
+
+
 /* Callout */
 
 .callout {
