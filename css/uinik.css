@@ -247,7 +247,7 @@ hr.small {
 .services-header{
     display: table;
     width: 100%;
-    height: 150px;
+    height: 200px;
     color: #fff;
 }
 
@@ -353,12 +353,49 @@ footer {
 
 
 
+.uinik-tour{
+    border: 1px solid #e4e4e4;
+    border-radius: 6px;
+}
 
+    .uinik-tour .uinik-tour-tabs{
+        margin: 0;
+    }
+    .uinik-tour .uinik-tour-tabs > div{
+        padding: 10px 0 5px;
+        border-bottom: 1px solid #e4e4e4;
+        border-right: 1px solid #e4e4e4;
+        cursor: pointer;
+    }
+    .uinik-tour .uinik-tour-tabs > div:hover {
+        background: #f8f8f8;
+    }
+    .uinik-tour .uinik-tour-tabs > div.active {
+        background: #e4e4e4;
+    }
 
+    .uinik-tour .uinik-tour-tabs > div:nth-child(1){
+        border-top-left-radius: 6px;
+    }
+    .uinik-tour .uinik-tour-tabs > div:nth-last-child(1){
+        border-right: 0;
+        border-top-right-radius: 6px;
+    }
 
+    .uinik-tour .uinik-tour-tabs .uinik-tour-tab-title{
+        font-size: 1.6em;
+    }
 
+.uinik-tour .uinik-tour-img-cover{
+    border-radius: 6px;
+    background-size: cover;
+    height: 250px;
+    background-position: 100% 45%;
+}
 
-
+.uinik-tour-content-item > .row{
+    margin: 0;
+}
 
 
 

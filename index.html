@@ -77,27 +77,31 @@
             <div class="col-lg-12 ">
                 <h2 class="text-center">Uinik</h2>
                 <p class="lead">
-                    Somos una empresa especializada en el desarrollo de aplicaciones móviles y sistemas web.
+
+                    UINIK, es una empresa de consultoría en tecnologías de información, capacitación y
+                    desarrollo de aplicaciones móviles y sistemas web,
+                    con un enfoque de soluciones a la medida de cada cliente.
+                    Basados en la metodología SCRUM desarrollamos proyectos de manera eficiente.
+
                     Nuestro equipo de trabajo conformado por los más creativos y apasionados programadores
                     es nuestra garantía de satisfacción para usted.
                 </p>
-                <div class="row">
+
+                <!--<div class="row">
                     <div class="col-md-6 col-xs-12">
-                        <h3>Desarrollo de aplicaciones móviles</h3>
+                        <h3>Misión</h3>
                         <p class="lead">
-                            Si usted tiene una idea para una app nosotros la hacemos realidad, desarrollamos para sistema
-                            nativos como iOS y Android, también somos expertos en desarrollo multiplataforma lo cual ayuda a
-                            llegar a más clientes son dispositivos Windows y Blackberry.
+
                         </p>
                     </div>
                     <div class="col-md-6 col-xs-12">
-                        <h3>Desarrollo de aplicaciones web</h3>
+                        <h3>Visión</h3>
                         <p class="lead">
-                            Desarrollo de software a la medida en ambiente web que le permitirá tener un producto que se
-                            adapta perfectamente a las necesidades de su negocio.
+
                         </p>
                     </div>
-                </div>
+                </div>-->
+
                 <h3>Nuestros ingenieros</h3>
                 <p class="lead">
 
@@ -216,10 +220,55 @@
 
 
 <!-- Portfolio -->
-<section id="services-desc" class="portfolio">
+<section id="services-desc" class="portfolio ">
     <div class="container">
+
+        <div class="uinik-tour">
+
+            <div class="row uinik-tour-tabs text-center ">
+                <div class="col-md-4 col-sm-4 col-xs-4 active" rel="services-mobile-dev-ios">
+                    <i class="fa fa-apple fa-5x"></i>
+                    <p class="uinik-tour-tab-title">iOS</p>
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-4">
+                    <i class="fa fa-android fa-5x"></i>
+                    <p class="uinik-tour-tab-title">Android</p>
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-4">
+                    <i class="fa fa-cubes fa-5x"></i>
+                    <p class="uinik-tour-tab-title">Multiplataforma</p>
+                </div>
+            </div>
+
+            <div class="" id="uinik-tour-content">
+
+                <div class="uinik-tour-content-item" id="services-mobile-dev-ios">
+
+                    <h1 class="text-center">iPhone y iPad</h1>
+
+                    <div class="row">
+                        <div class="col-md-10 col-md-offset-1 uinik-tour-img-cover" style="background-image: url('/img/ios.jpg')"></div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
         <div class="row">
+
             <h2></h2>
+            <p>
+                Si usted tiene una idea para una app nosotros la hacemos realidad, desarrollamos para sistema
+                nativos como iOS y Android, también somos expertos en desarrollo multiplataforma lo cual ayuda a
+                llegar a más clientes son dispositivos Windows y Blackberry.
+
+
+                Desarrollo de software a la medida en ambiente web que le permitirá tener un producto que se
+                adapta perfectamente a las necesidades de su negocio.
+            </p>
         </div>
         <!-- /.row -->
     </div>
@@ -378,7 +427,10 @@
             $icon.toggleClass("animated bounceIn");
         });
 
-
+        $('.uinik-tabsx a').click(function (e) {
+            e.preventDefault()
+            $(this).tab('show')
+        })
 
 
 
