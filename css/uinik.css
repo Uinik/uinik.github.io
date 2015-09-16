@@ -98,8 +98,10 @@ body {
 /* Custom Horizontal Rule */
 
 hr.small {
-    max-width: 100px;
+    max-width: 50%;
 }
+
+
 
 /* Side Menu */
 
@@ -204,7 +206,7 @@ hr.small {
 .header h1{
     padding: 20px 0;
     /*background-color: #ffffff;*/
-    background-image: url("../img/tranparent-60.png");
+    /*background-image: url("../img/tranparent-60.png");*/
 }
 .header h1 img{
     width: 140px;
@@ -213,7 +215,7 @@ hr.small {
 
 /* About */
 
-.about {
+.about, .section{
     padding: 50px 0;
 }
 
@@ -398,11 +400,31 @@ footer {
 }
 
 
+h2{
+    text-align: center;
+}
+
+hr.black{
+    border-color: black;
+    
+}
 
 
+.text-white{
+    color: white;
+}
 
 
+#process{
+    background-image: url("../img/process_1200.jpg");
+    background-size: cover;
+}
 
+
+form{
+    background-color: beige;
+    padding: 15px 10px;
+}
 
 
 
